@@ -41,8 +41,8 @@
             </div>
           </div>
 
-          <div class="chat__content--login__user">
-            <div class="chat__content--message--login__user">
+          <div class="chat__content is__login__user">
+            <div class="chat__content--message is__login__user">
               <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
             </div>
             <div class="chat__content--image">
@@ -50,8 +50,8 @@
             </div>
           </div>
 
-          <div class="chat__content--login__user">
-            <div class="chat__content--message--login__user">
+          <div class="chat__content is__login__user">
+            <div class="chat__content--message is__login__user">
               <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
             </div>
             <div class="chat__content--image">
@@ -68,8 +68,8 @@
             </div>
           </div>
 
-          <div class="chat__content--login__user">
-            <div class="chat__content--message--login__user">
+          <div class="chat__content is__login__user">
+            <div class="chat__content--message is__login__user">
               <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
             </div>
             <div class="chat__content--image">
@@ -77,8 +77,8 @@
             </div>
           </div>
 
-          <div class="chat__content--login__user">
-            <div class="chat__content--message--login__user">
+          <div class="chat__content is__login__user">
+            <div class="chat__content--message is__login__user">
               <p>testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</p>
             </div>
             <div class="chat__content--image">

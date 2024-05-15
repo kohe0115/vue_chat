@@ -65,32 +65,21 @@
           border-right: 15px solid #e0edff;
         }
       }
-      .chat__content--login__user {
-        display: flex;
-        width: 100%;
-        box-sizing: border-box;
-        align-items: center;
+      .chat__content.is__login__user {
         padding-right: 25px;
         padding-left: 25px;
         justify-content: end;
 
-        .chat__content--message--login__user {
-          position: relative;
-          display: inline-block;
+        .chat__content--message.is__login__user {
           margin: 1.5em 25px 1.5em 0;
           padding: 7px 10px;
-          min-width: 120px;
-          max-width: 100%;
-          color: #555;
-          font-size: 16px;
-          background: #e0edff;
-          line-break: anywhere;
         }
-        .chat__content--message--login__user:before {
+        .chat__content--message.is__login__user:before {
           content: "";
           position: absolute;
           top: 50%;
-          right: -30px;
+          right: -30px !important;
+          left: initial;
           margin-top: -15px;
           border: 15px solid transparent;
           border-left: 15px solid #e0edff;
