@@ -9,7 +9,7 @@
       ></ChatContentComponent>
     </div>
 
-    <FormComponent></FormComponent>
+    <FormComponent :messages="messages" @addData="addData"></FormComponent>
   </div>
 </template>
 
@@ -26,6 +26,17 @@ export default {
         {'id': 2, 'content': 'test2', 'is_current': (Math.floor(Math.random() * 10) + 1) % 2 === 0},
         {'id': 3, 'content': 'test3', 'is_current': (Math.floor(Math.random() * 10) + 1) % 2 === 0},
       ]
+    }
+  },
+  methods: {
+    addData(data) {
+      this.messages.push(
+          {
+            'id': this.messages.slice(-1)[0].id + 1,
+            'content': data,
+            'is_current': true
+          }
+      );
     }
   }
 }
